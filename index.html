@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<title>Salary Details</title>
+<link rel="stylesheet" href=".//CSS/Index.css">
+</head>
+<body>
+
+<h2>Input Prediksi Gaji Karyawan</h2>
+<img src="./IMG/pngwing.com.png" alt="Avatar">
+
+<form id="karyawan">
+  <table>
+      <tr>
+          <th align="center" colspan="3"><h3>Form Input</h3></th>
+      </tr>
+      <tr>
+          <td><label for="">Nama</label></td>
+          <td>:</td>
+          <td>
+              <input type="text" name="nama" id="nama" placeholder="Masukan Nama anda">
+          </td>
+      </tr>
+      <tr>
+          <td>
+              <label for="">Jabatan</label>
+          </td>
+          <td>:</td>
+          <td>
+            <select name="jabatan" id="jabatan"></select>
+          </td>
+      </tr>
+      <tr>
+          <td>
+              <label for="">Status</label>
+          </td>
+          <td>:</td>
+          <td>
+            <select name="status" id="status"></select>
+          </td>
+      </tr>
+      <tr>
+          <th colspan="3">
+            <input type="button" value="Submit" onclick="Input()">
+          </th>
+      </tr>
+  </table>
+</form>
+<center id="hasil"></center>
+<script src="Js/karyawan.js"></script>
+
+</body>
+</html>
